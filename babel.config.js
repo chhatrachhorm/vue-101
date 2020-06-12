@@ -1,5 +1,8 @@
 module.exports = {
-  presets: [
+ "plugins": [
+    "require-context-hook"
+ ],
+  "presets": [
     '@vue/cli-plugin-babel/preset'
   ]
 }
